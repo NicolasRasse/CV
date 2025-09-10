@@ -1,0 +1,16 @@
+{
+  "basics": {
+    "name": "Ariel Nicolás Pérez",
+    "email": "nicolasperez2912@gmail.com",
+    "phone": "(02954) 15341290",
+    "summary": "Técnico en sistemas con experiencia en soporte IT, redes y mantenimiento industrial."
+  },
+  "work": [
+    {
+      "company": "Carnes Pampeanas",
+      "position": "Sistemas y soporte técnico",
+      "startDate": "2017",
+      "summary": "Administración de usuarios, mantenimiento de equipos, redes y producción."
+    }
+  ]
+}
