@@ -4,26 +4,130 @@
   <meta charset="UTF-8">
   <title>CV - Ariel Nicolás Pérez</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; background: #f4f7fa; }
-    h1 { color: #0d6efd; }
-    h2 { border-bottom: 2px solid #0d6efd; padding-bottom: 5px; }
-    .section { margin-bottom: 25px; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: #0d1117;
+      color: #c9d1d9;
+    }
+    header {
+      background: #161b22;
+      color: #58a6ff;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 1.1em;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    h2 {
+      color: #58a6ff;
+      border-bottom: 2px solid #30363d;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "⚡ ";
+      color: #58a6ff;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .contact {
+      margin-top: 10px;
+      font-size: 0.95em;
+    }
+    .badge {
+      display: inline-block;
+      background: #21262d;
+      color: #58a6ff;
+      padding: 5px 10px;
+      border-radius: 12px;
+      margin: 5px 5px 0 0;
+      font-size: 0.9em;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #161b22;
+      margin-top: 30px;
+      color: #8b949e;
+      font-size: 0.85em;
+    }
   </style>
 </head>
 <body>
-  <h1>Ariel Nicolás Pérez</h1>
-  <p><b>Email:</b> nicolasperez2912@gmail.com | <b>Tel:</b> (02954) 15341290</p>
-  
-  <div class="section">
-    <h2>Sobre mí</h2>
-    <p>Técnico en sistemas con experiencia en soporte IT, redes, servidores y mantenimiento industrial...</p>
+  <header>
+    <h1>Ariel Nicolás Pérez</h1>
+    <p>👨‍💻 Técnico en Sistemas | Soporte IT | Redes | Producción Industrial | Multimedia</p>
+    <div class="contact">
+      📧 nicolasperez2912@gmail.com | 📱 (02954) 15341290 | 📍 Roque Sáenz Peña 1495
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>Sobre mí</h2>
+      <p>Técnico en sistemas con experiencia en soporte IT, redes, servidores, mantenimiento industrial y diseño multimedia. Apasionado por la tecnología, la programación y el aprendizaje constante.</p>
+    </div>
+
+    <div class="section">
+      <h2>Experiencia laboral</h2>
+      <ul>
+        <li><b>Carnes Pampeanas (2017 - Actualidad):</b> soporte técnico, administración de usuarios, configuración de redes, mantenimiento de impresoras industriales y diseño de etiquetas.</li>
+        <li><b>La Anónima (2016):</b> atención y reposición.</li>
+        <li><b>SEE Technology (2011 - 2012):</b> reparación de PC y atención al público.</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Habilidades</h2>
+      <span class="badge">Redes y servidores</span>
+      <span class="badge">Soporte IT</span>
+      <span class="badge">Administración de usuarios</span>
+      <span class="badge">Programación (Python, JS, HTML, CSS, Arduino)</span>
+      <span class="badge">Producción industrial</span>
+      <span class="badge">Office</span>
+      <span class="badge">Photoshop</span>
+      <span class="badge">Illustrator</span>
+      <span class="badge">Premiere</span>
+      <span class="badge">After Effects</span>
+    </div>
+
+    <div class="section">
+      <h2>Educación</h2>
+      <ul>
+        <li><b>UNLPAM:</b> Tecnicatura en Informática de Gestión (En curso)</li>
+        <li><b>IAC:</b> Técnico en Armado y Reparación de PC (1999)</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Cursos</h2>
+      <ul>
+        <li>Udemy (2021): CSS - HTML</li>
+        <li>AFSCA - Ministerio de Trabajo (2015): Edición y montaje</li>
+        <li>Defensoría del Público - Radio La Tosca (2015): Operación técnica y edición digital de sonido</li>
+        <li>Liceo Informático II (2001): Manejo básico herramientas Office</li>
+      </ul>
+    </div>
   </div>
-  
-  <div class="section">
-    <h2>Experiencia laboral</h2>
-    <ul>
-      <li><b>Carnes Pampeanas (2017 - Actualidad):</b> soporte técnico, administración de usuarios, routers, impresoras industriales...</li>
-    </ul>
-  </div>
+
+  <footer>
+    © 2025 Ariel Nicolás Pérez | Desarrollado con GitHub Pages
+  </footer>
 </body>
 </html>
