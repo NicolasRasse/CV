@@ -34,4 +34,3 @@ Mi CV está publicado con **GitHub Pages** y se puede acceder aquí:
 
 ---
 
-👉 Lo único que tenés que hacer es crear un archivo llamado `README.md` en tu repo y pegar esto. Así tu repo queda bien presentado y profesional. 🚀
