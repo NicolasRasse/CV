@@ -54,10 +54,17 @@
       display: inline-block;
       background: #21262d;
       color: #58a6ff;
-      padding: 5px 10px;
+      padding: 8px 14px;
       border-radius: 12px;
-      margin: 5px 5px 0 0;
-      font-size: 0.9em;
+      margin: 6px 6px 0 0;
+      font-size: 1.1em; /* más grande por defecto */
+    }
+    /* Ajuste especial para pantallas chicas */
+    @media (max-width: 600px) {
+      .badge {
+        font-size: 1.3em;  /* agranda aún más el texto */
+        padding: 10px 16px; /* más espacio */
+      }
     }
     footer {
       text-align: center;
@@ -67,35 +74,18 @@
       color: #8b949e;
       font-size: 0.85em;
     }
-   @media (max-width: 600px) {
-    .badge {
-    font-size: 1.1em;  /* Agranda el texto */
-    padding: 8px 14px; /* Más espacio para que se lea mejor */
-  }
-}
   </style>
 </head>
 <body>
   <header>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HDYKDNTESL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-  
-    gtag('config', 'G-HDYKDNTESL');
-  </script>
-  <img src="foto.jpg" alt="Foto de Ariel Nicolás Pérez" 
-       style="width:150px; border-radius:50%; margin-top:10px;">
-  <h1>Ariel Nicolás Pérez</h1>
-  <p>👨‍💻 Técnico en Sistemas | Soporte IT | Redes | Producción Industrial | Multimedia</p>
-  <div class="contact">
-    📧 nicolasperez2912@gmail.com | 📱 (02954) 15341290 | 📍 Roque Sáenz Peña 1495
-  </div>
-    <!-- Google tag (gtag.js) -->
-
-</header>
-
+    <img src="foto.jpg" alt="Foto de Ariel Nicolás Pérez" 
+         style="width:150px; border-radius:50%; margin-bottom:15px;">
+    <h1>Ariel Nicolás Pérez</h1>
+    <p>👨‍💻 Técnico en Sistemas | Soporte IT | Redes | Producción Industrial | Multimedia</p>
+    <div class="contact">
+      📧 nicolasperez2912@gmail.com | 📱 (02954) 15341290 | 📍 Roque Sáenz Peña 1495
+    </div>
+  </header>
 
   <div class="container">
     <div class="section">
@@ -108,10 +98,7 @@
       <ul>
         <li><b>Carnes Pampeanas (2017 - Actualidad):</b> soporte técnico, administración de usuarios, configuración de redes, mantenimiento de impresoras industriales y diseño de etiquetas.</li>
         <li><b>La Anónima (2016):</b> atención y reposición.</li>
-        <li><b>STC - Servicios de telecomunicaciones (2016):</b> Instalación de cable, internet y telefonía para la CPE </li>
-        <li><b>Radio La Tosca (2011 - 2016):</b> Operador, Musicalizador y tecnico </li>
-        <li><b>GEO Seguridad (2013 - 2015):</b> Monitoreo y vigilancia privada </li>
-        <li><b>SEE Technology (2011 - 2012):</b> reparación de PC y atención al público. </li>
+        <li><b>SEE Technology (2011 - 2012):</b> reparación de PC y atención al público.</li>
       </ul>
     </div>
 
@@ -120,8 +107,7 @@
       <span class="badge">Redes y servidores</span>
       <span class="badge">Soporte IT</span>
       <span class="badge">Administración de usuarios</span>
-      <span class="badge">Programación (Python, JS, HTML, CSS)</span>
-      <span class="badge">Domotica (Arduino, Raspberry Pi, Sensores)</span>
+      <span class="badge">Programación (Python, JS, HTML, CSS, Arduino)</span>
       <span class="badge">Producción industrial</span>
       <span class="badge">Office</span>
       <span class="badge">Photoshop</span>
@@ -134,7 +120,6 @@
       <h2>Educación</h2>
       <ul>
         <li><b>UNLPAM:</b> Tecnicatura en Informática de Gestión (En curso)</li>
-        <li><b>Nivel Polimodal</b> Orientación en Administración de Empresas (2005)</li>
         <li><b>IAC:</b> Técnico en Armado y Reparación de PC (1999)</li>
       </ul>
     </div>
