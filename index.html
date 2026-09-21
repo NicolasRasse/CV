@@ -2,143 +2,358 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>CV - Ariel Nicolás Pérez</title>
-  <style>
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      background: #0d1117;
-      color: #c9d1d9;
-    }
-    header {
-      background: #161b22;
-      color: #58a6ff;
-      text-align: center;
-      padding: 30px 20px;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-    }
-    header p {
-      margin: 5px 0;
-      font-size: 1.1em;
-    }
-    .container {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 20px;
-    }
-    h2 {
-      color: #58a6ff;
-      border-bottom: 2px solid #30363d;
-      padding-bottom: 5px;
-      margin-top: 30px;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li::before {
-      content: "⚡ ";
-      color: #58a6ff;
-    }
-    .section {
-      margin-bottom: 20px;
-    }
-    .contact {
-      margin-top: 10px;
-      font-size: 0.95em;
-    }
-  .skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.skills {
-  list-style: none;
-  padding: 0;
-}
-.skills li {
-  font-size: 1.2em; /* bien legible en móvil */
-  margin: 8px 0;
-}
-
-
-    footer {
-      text-align: center;
-      padding: 15px;
-      background: #161b22;
-      margin-top: 30px;
-      color: #8b949e;
-      font-size: 0.85em;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CV online de Ariel Nicolás Pérez: sistemas, soporte técnico, telecomunicaciones, atención al cliente y experiencia operativa.">
+  <title>CV | Ariel Nicolás Pérez</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="foto.jpg" alt="Foto de Ariel Nicolás Pérez" 
-         style="width:150px; border-radius:50%; margin-bottom:15px;">
-    <h1>Ariel Nicolás Pérez</h1>
-    <p>👨‍💻 Técnico en Sistemas | Soporte IT | Redes | Producción Industrial | Multimedia</p>
-    <div class="contact">
-      📧 nicolasperez2912@gmail.com | 📱 (02954) 15341290 | 📍 Roque Sáenz Peña 1495
+
+  <header class="hero">
+    <div class="hero-inner">
+      <img class="profile-photo" src="foto.jpg" alt="Foto de Ariel Nicolás Pérez">
+
+      <div>
+        <p class="eyebrow">Perfil técnico y operativo · Atención al cliente · Sistemas</p>
+        <h1>Ariel Nicolás Pérez</h1>
+        <p class="hero-subtitle">Soporte IT · Redes · Telecomunicaciones · Operaciones industriales · Seguridad electrónica</p>
+
+        <div class="contact-row">
+          <span>📍 Santa Rosa, La Pampa, Argentina</span>
+          <a href="tel:+54295415341290">📱 02954-15341290</a>
+          <a href="mailto:nicolasperez2912@gmail.com">✉️ nicolasperez2912@gmail.com</a>
+          <a href="https://github.com/NicolasRasse" target="_blank" rel="noreferrer">💻 GitHub</a>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button primary" href="mailto:nicolasperez2912@gmail.com">Contactar</a>
+          <a class="button" href="https://github.com/NicolasRasse/vortex42-control-center-demo" target="_blank" rel="noreferrer">Ver proyecto Vortex42</a>
+          <a class="button" href="javascript:window.print()">Imprimir / Guardar PDF</a>
+        </div>
+      </div>
     </div>
   </header>
 
-  <div class="container">
-    <div class="section">
-      <h2>Sobre mí</h2>
-      <p>Técnico en sistemas con experiencia en soporte IT, redes, servidores, mantenimiento industrial y diseño multimedia. Apasionado por la tecnología, la programación y el aprendizaje constante.</p>
+  <main class="resume">
+
+    <div class="column">
+
+      <section class="card">
+        <h2 class="section-title">Perfil profesional</h2>
+        <p class="profile-text">
+          Perfil versátil con experiencia en sistemas informáticos, soporte técnico, telecomunicaciones,
+          atención al público, caja y reposición, seguridad y tareas operativas en industria. Más de 6 años
+          de experiencia en el área de Sistemas dentro de un frigorífico de exportación, además de experiencia
+          en reparación de PC, instalación de servicios de telecomunicaciones y trabajo en entornos con normas
+          de seguridad y calidad. Capacidad de adaptación, organización, resolución de problemas y aprendizaje continuo.
+        </p>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">Experiencia laboral</h2>
+
+        <div class="timeline">
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>Carnes Pampeanas · Frigorífico de exportación</h3>
+                <p class="job-role">Cámara OREO</p>
+              </div>
+              <span class="job-date">2025 - Actualidad</span>
+            </div>
+            <ul>
+              <li>Tareas operativas vinculadas al almacenamiento y movimiento de medias reses.</li>
+              <li>Cumplimiento de procedimientos de seguridad, higiene, calidad y producción.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>Carnes Pampeanas</h3>
+                <p class="job-role">Área de Empaque</p>
+              </div>
+              <span class="job-date">2023 - 2025</span>
+            </div>
+            <ul>
+              <li>Tareas operativas dentro del proceso productivo.</li>
+              <li>Cumplimiento de estándares de seguridad y calidad.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>Carnes Pampeanas</h3>
+                <p class="job-role">Área de Sistemas</p>
+              </div>
+              <span class="job-date">2017 - 2023</span>
+            </div>
+            <ul>
+              <li>Soporte a usuarios en hardware y software.</li>
+              <li>Administración de usuarios y permisos en servidores.</li>
+              <li>Configuración de routers y equipos de usuarios.</li>
+              <li>Mantenimiento de PCs, servidores, paneles e impresoras industriales.</li>
+              <li>Diseño y pruebas de etiquetas en líneas de producción.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>STC / CPE · Servicios de Telecomunicaciones</h3>
+                <p class="job-role">Técnico instalador</p>
+              </div>
+              <span class="job-date">2016</span>
+            </div>
+            <ul>
+              <li>Instalación de cable, Internet y telefonía; trabajo en campo y en altura.</li>
+              <li>Atención al usuario, uso de herramientas técnicas y cumplimiento de normas de seguridad.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>La Anónima</h3>
+                <p class="job-role">Cajero y repositor</p>
+              </div>
+              <span class="job-date">2016</span>
+            </div>
+            <ul>
+              <li>Atención al público, caja y reposición.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>Geo Seguridad</h3>
+                <p class="job-role">Monitoreo y vigilancia privada</p>
+              </div>
+              <span class="job-date">2013 - 2015</span>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>Radio La Tosca</h3>
+                <p class="job-role">Operación y musicalización</p>
+              </div>
+              <span class="job-date">2011 - 2016</span>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>Radio Kermés</h3>
+                <p class="job-role">Operación y musicalización</p>
+              </div>
+              <span class="job-date">2014 - 2015</span>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>Radio del Deporte 90.1</h3>
+                <p class="job-role">Operación y musicalización</p>
+              </div>
+              <span class="job-date">2012 - 2013</span>
+            </div>
+          </article>
+
+          <article class="job">
+            <div class="job-head">
+              <div>
+                <h3>SEE Technology</h3>
+                <p class="job-role">Reparación de PC y atención al público</p>
+              </div>
+              <span class="job-date">2011 - 2012</span>
+            </div>
+            <ul>
+              <li>Reparación y mantenimiento de computadoras y atención a clientes.</li>
+            </ul>
+          </article>
+
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">Proyectos personales de tecnología</h2>
+
+        <div class="project-list">
+          <article class="project-item">
+            <h3>Vortex42 Homelab</h3>
+            <p>Entorno personal con Debian Linux, Raspberry Pi, Docker, Docker Compose, Portainer, servicios self-hosted, monitorización, backups y documentación técnica.</p>
+            <a class="project-link" href="https://github.com/NicolasRasse/vortex42-control-center-demo" target="_blank" rel="noreferrer">Ver demo pública →</a>
+          </article>
+
+          <article class="project-item">
+            <h3>Red y acceso remoto</h3>
+            <p>Implementación de Tailscale, servicios de red, DNS, almacenamiento y repositorios Git.</p>
+          </article>
+
+          <article class="project-item">
+            <h3>Automatización e IoT</h3>
+            <p>Proyectos con Home Assistant, ESPHome, ESP32/ESP8266 y Arduino.</p>
+          </article>
+        </div>
+      </section>
+
     </div>
 
-    <div class="section">
-      <h2>Experiencia laboral</h2>
-      <ul>
-        <li><b>Carnes Pampeanas (2017 - Actualidad):</b> soporte técnico, administración de usuarios, configuración de redes, mantenimiento de impresoras industriales y diseño de etiquetas.</li>
-        <li><b>La Anónima (2016):</b> atención y reposición.</li>
-        <li><b>SEE Technology (2011 - 2012):</b> reparación de PC y atención al público.</li>
-      </ul>
-    </div>
+    <aside class="column">
 
-    <div class="section">
-      <h2>Habilidades</h2>
-      <ul class="skills">
-        <li>💻 Redes y servidores</li>
-        <li>🛠️ Soporte IT</li>
-        <li>👥 Administración de usuarios</li>
-        <li>⚡ Programación (Python, JS, HTML, CSS, Arduino)</li>
-        <li>🏭 Producción industrial</li>
-        <li>📊 Office</li>
-        <li>🎨 Photoshop</li>
-        <li>✒️ Illustrator</li>
-        <li>🎬 Premiere</li>
-        <li>🎞️ After Effects</li>
-      </ul>
-    </div>
+      <section class="card">
+        <h2 class="section-title">Habilidades</h2>
 
+        <div class="skill-group">
+          <h3>Técnicas</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Soporte IT</span>
+            <span class="skill-tag">Hardware</span>
+            <span class="skill-tag">Software</span>
+            <span class="skill-tag">Redes</span>
+            <span class="skill-tag">Routers</span>
+            <span class="skill-tag">Servidores</span>
+            <span class="skill-tag">Mantenimiento de PC</span>
+          </div>
+        </div>
 
-    <div class="section">
-      <h2>Educación</h2>
-      <ul>
-        <li><b>UNLPAM:</b> Tecnicatura en Informática de Gestión (En curso)</li>
-        <li><b>IAC:</b> Técnico en Armado y Reparación de PC (1999)</li>
-      </ul>
-    </div>
+        <div class="skill-group">
+          <h3>Digitales</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Word</span>
+            <span class="skill-tag">Excel</span>
+            <span class="skill-tag">Publisher</span>
+            <span class="skill-tag">Internet</span>
+            <span class="skill-tag">Correo electrónico</span>
+          </div>
+        </div>
 
-    <div class="section">
-      <h2>Cursos</h2>
-      <ul>
-        <li>Udemy (2021): CSS - HTML</li>
-        <li>AFSCA - Ministerio de Trabajo (2015): Edición y montaje</li>
-        <li>Defensoría del Público - Radio La Tosca (2015): Operación técnica y edición digital de sonido</li>
-        <li>Liceo Informático II (2001): Manejo básico herramientas Office</li>
-      </ul>
-    </div>
-  </div>
+        <div class="skill-group">
+          <h3>Programación</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Arduino</span>
+          </div>
+        </div>
 
-  <footer>
-    © 2025 Ariel Nicolás Pérez | Desarrollado con GitHub Pages
+        <div class="skill-group">
+          <h3>Multimedia</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">Premiere</span>
+            <span class="skill-tag">After Effects</span>
+            <span class="skill-tag">Audition</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Transversales</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Atención al público</span>
+            <span class="skill-tag">Organización</span>
+            <span class="skill-tag">Resolución de problemas</span>
+            <span class="skill-tag">Adaptación</span>
+            <span class="skill-tag">Seguridad y calidad</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">Formación</h2>
+
+        <div class="item">
+          <h3>Tecnicatura en Informática de Gestión · UNLPam</h3>
+          <p>Estudios iniciados · Continuación prevista en 2027</p>
+        </div>
+
+        <div class="item">
+          <h3>Técnico en Armado y Reparación de PC · IAC</h3>
+          <p>1999</p>
+        </div>
+
+        <div class="item">
+          <h3>Polimodal · Orientación en Administración de Empresas</h3>
+          <p>2005</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">Capacitación</h2>
+
+        <div class="item">
+          <h3>Instalación de Cámaras de Seguridad y Alarmas · EDDIS Educativa</h3>
+          <p>En curso</p>
+        </div>
+
+        <div class="item">
+          <h3>HTML y CSS · Udemy</h3>
+          <p>2021</p>
+        </div>
+
+        <div class="item">
+          <h3>Edición y Montaje · AFSCA / Ministerio de Trabajo</h3>
+          <p>2015</p>
+        </div>
+
+        <div class="item">
+          <h3>Operación técnica, edición digital de sonido y elaboración de piezas sonoras</h3>
+          <p>Defensoría del Público / Radio La Tosca · 2015</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2 class="section-title">Idiomas y datos adicionales</h2>
+
+        <div class="info-row">
+          <div>
+            <strong>Inglés técnico</strong>
+            <span>Buena comprensión de documentación, interfaces y terminología informática; nivel conversacional básico.</span>
+          </div>
+          <span class="badge">Técnico</span>
+        </div>
+
+        <div class="info-row">
+          <div>
+            <strong>Carnet de conducir</strong>
+            <span>Disponible</span>
+          </div>
+          <span class="badge">Sí</span>
+        </div>
+
+        <div class="info-row">
+          <div>
+            <strong>Vehículo propio</strong>
+            <span>Disponible</span>
+          </div>
+          <span class="badge">Sí</span>
+        </div>
+
+        <div class="info-row">
+          <div>
+            <strong>Disponibilidad horaria</strong>
+            <span>Disponible para nuevas oportunidades.</span>
+          </div>
+          <span class="badge">Sí</span>
+        </div>
+      </section>
+
+    </aside>
+
+  </main>
+
+  <footer class="footer">
+    Ariel Nicolás Pérez · CV online publicado con GitHub Pages
   </footer>
+
 </body>
 </html>
