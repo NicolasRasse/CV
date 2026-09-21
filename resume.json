@@ -1,16 +1,176 @@
 {
   "basics": {
     "name": "Ariel Nicolás Pérez",
+    "label": "Perfil técnico y operativo | Atención al cliente | Sistemas",
     "email": "nicolasperez2912@gmail.com",
-    "phone": "(02954) 15341290",
-    "summary": "Técnico en sistemas con experiencia en soporte IT, redes y mantenimiento industrial."
+    "phone": "02954-15341290",
+    "location": {
+      "city": "Santa Rosa",
+      "region": "La Pampa",
+      "countryCode": "AR"
+    },
+    "url": "https://github.com/NicolasRasse",
+    "summary": "Perfil versátil con experiencia en sistemas informáticos, soporte técnico, telecomunicaciones, atención al público, caja y reposición, seguridad y tareas operativas en industria. Más de 6 años de experiencia en el área de Sistemas dentro de un frigorífico de exportación, además de experiencia en reparación de PC, instalación de servicios de telecomunicaciones y trabajo en entornos con normas de seguridad y calidad."
   },
   "work": [
     {
-      "company": "Carnes Pampeanas",
-      "position": "Sistemas y soporte técnico",
+      "name": "Carnes Pampeanas - Frigorífico de exportación",
+      "position": "Cámara OREO",
+      "startDate": "2025",
+      "endDate": "Actualidad",
+      "highlights": [
+        "Tareas operativas vinculadas al almacenamiento y movimiento de medias reses.",
+        "Cumplimiento de procedimientos de seguridad, higiene, calidad y producción."
+      ]
+    },
+    {
+      "name": "Carnes Pampeanas",
+      "position": "Área de Empaque",
+      "startDate": "2023",
+      "endDate": "2025",
+      "highlights": [
+        "Tareas operativas dentro del proceso productivo.",
+        "Cumplimiento de estándares de seguridad y calidad."
+      ]
+    },
+    {
+      "name": "Carnes Pampeanas",
+      "position": "Área de Sistemas",
       "startDate": "2017",
-      "summary": "Administración de usuarios, mantenimiento de equipos, redes y producción."
+      "endDate": "2023",
+      "highlights": [
+        "Soporte a usuarios en hardware y software.",
+        "Administración de usuarios y permisos en servidores.",
+        "Configuración de routers y equipos de usuarios.",
+        "Mantenimiento de PCs, servidores, paneles e impresoras industriales.",
+        "Diseño y pruebas de etiquetas en líneas de producción."
+      ]
+    },
+    {
+      "name": "STC / CPE - Servicios de Telecomunicaciones",
+      "position": "Técnico instalador",
+      "startDate": "2016",
+      "endDate": "2016",
+      "highlights": [
+        "Instalación de cable, Internet y telefonía; trabajo en campo y en altura.",
+        "Atención al usuario, uso de herramientas técnicas y cumplimiento de normas de seguridad."
+      ]
+    },
+    {
+      "name": "La Anónima",
+      "position": "Cajero y repositor",
+      "startDate": "2016",
+      "endDate": "2016",
+      "highlights": ["Atención al público, caja y reposición."]
+    },
+    {
+      "name": "Geo Seguridad",
+      "position": "Monitoreo y vigilancia privada",
+      "startDate": "2013",
+      "endDate": "2015"
+    },
+    {
+      "name": "Radio La Tosca",
+      "position": "Operación y musicalización",
+      "startDate": "2011",
+      "endDate": "2016"
+    },
+    {
+      "name": "Radio Kermés",
+      "position": "Operación y musicalización",
+      "startDate": "2014",
+      "endDate": "2015"
+    },
+    {
+      "name": "Radio del Deporte 90.1",
+      "position": "Operación y musicalización",
+      "startDate": "2012",
+      "endDate": "2013"
+    },
+    {
+      "name": "SEE Technology",
+      "position": "Reparación de PC y atención al público",
+      "startDate": "2011",
+      "endDate": "2012",
+      "highlights": ["Reparación y mantenimiento de computadoras y atención a clientes."]
     }
-  ]
+  ],
+  "education": [
+    {
+      "institution": "UNLPam",
+      "area": "Tecnicatura en Informática de Gestión",
+      "studyType": "Tecnicatura",
+      "summary": "Estudios iniciados | Continuación prevista en 2027"
+    },
+    {
+      "institution": "IAC",
+      "area": "Técnico en Armado y Reparación de PC",
+      "endDate": "1999"
+    },
+    {
+      "institution": "Polimodal",
+      "area": "Orientación en Administración de Empresas",
+      "endDate": "2005"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Técnicas",
+      "keywords": ["Soporte IT", "Mantenimiento y reparación de PC", "Hardware", "Software", "Redes", "Routers", "Servidores"]
+    },
+    {
+      "name": "Digitales",
+      "keywords": ["Microsoft Word", "Excel", "Publisher", "Internet", "Correo electrónico", "Herramientas digitales"]
+    },
+    {
+      "name": "Programación",
+      "keywords": ["Python", "JavaScript", "HTML", "CSS", "Arduino"]
+    },
+    {
+      "name": "Multimedia",
+      "keywords": ["Photoshop", "Premiere", "After Effects", "Audition"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Vortex42 Homelab",
+      "description": "Homelab con Debian Linux, Raspberry Pi, Docker, Docker Compose y Portainer; redes y acceso remoto mediante Tailscale; servicios self-hosted, DNS, almacenamiento y Git.",
+      "url": "https://github.com/NicolasRasse/vortex42-control-center-demo"
+    },
+    {
+      "name": "Automatización e IoT",
+      "description": "Proyectos con Home Assistant, ESPHome, ESP32/ESP8266 y Arduino."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Instalación de Cámaras de Seguridad y Alarmas",
+      "issuer": "EDDIS Educativa",
+      "date": "En curso"
+    },
+    {
+      "name": "HTML y CSS",
+      "issuer": "Udemy",
+      "date": "2021"
+    },
+    {
+      "name": "Edición y Montaje",
+      "issuer": "AFSCA / Ministerio de Trabajo",
+      "date": "2015"
+    },
+    {
+      "name": "Operación técnica, edición digital de sonido y elaboración de piezas sonoras",
+      "issuer": "Defensoría del Público / Radio La Tosca",
+      "date": "2015"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Inglés técnico",
+      "fluency": "Buena comprensión de documentación, interfaces y terminología informática; nivel conversacional básico."
+    }
+  ],
+  "meta": {
+    "additional": ["Carnet de conducir", "Vehículo propio", "Disponibilidad horaria"]
+  }
 }
