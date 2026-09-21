@@ -408,81 +408,62 @@ a {
   }
 }
 
+/* A4 at 100%: experience on page one, supporting sections on page two. */
+@page { size: A4; margin: 12mm; }
+
 @media print {
   :root {
     --bg: #fff;
     --surface: #fff;
     --text: #111;
-    --muted: #444;
-    --line: #d4d4d4;
+    --muted: #333;
+    --line: #ccc;
     --accent: #1f4f8f;
     --shadow: none;
   }
-
-  body {
-    background: #fff;
-    font-size: 10.5pt;
-  }
-
-  .hero {
-    padding: 18px 0;
-    background: #fff;
-    color: #111;
-    border-bottom: 2px solid #222;
-  }
-
-  .hero-inner,
-  .resume {
-    width: 100%;
-    max-width: none;
-  }
-
-  .hero-inner {
-    grid-template-columns: 100px 1fr;
-  }
-
-  .profile-photo {
-    width: 100px;
-    height: 100px;
-    border-radius: 10px;
-    box-shadow: none;
-  }
-
-  .eyebrow,
-  .hero-subtitle,
-  .contact-row {
-    color: #333;
-  }
-
-  .hero-actions,
-  .footer {
-    display: none;
-  }
-
-  .resume {
-    margin: 14px 0 0;
-    grid-template-columns: 1.55fr 0.9fr;
-    gap: 12px;
-  }
-
-  .column {
-    gap: 12px;
-  }
-
-  .card {
-    box-shadow: none;
-    border-radius: 0;
-    padding: 12px;
-    break-inside: avoid;
-  }
-
-  .job,
-  .project-item,
-  .item {
-    break-inside: avoid;
-  }
-
-  a {
-    text-decoration: none;
-  }
+  body { background: #fff; font-size: 10.5pt; line-height: 1.3; }
+  .hero { padding: 0 0 4mm; background: #fff; color: #111; border-bottom: 1pt solid #222; }
+  .hero-inner { width: 100%; max-width: none; grid-template-columns: 22mm 1fr; gap: 5mm; text-align: left; }
+  .profile-photo { width: 22mm; height: 22mm; margin: 0; border-radius: 3mm; border: 1pt solid #ccc; box-shadow: none; }
+  .hero h1 { font-size: 24pt; }
+  .eyebrow { margin: 0 0 2mm; font-size: 8pt; letter-spacing: .03em; }
+  .hero-subtitle { margin-top: 2mm; font-size: 10pt; }
+  .eyebrow, .hero-subtitle, .contact-row { color: #333; }
+  .contact-row { justify-content: flex-start; gap: 1mm 4mm; margin-top: 2mm; font-size: 9pt; }
+  .hero-actions, .footer { display: none; }
+  .resume { display: block; width: 100%; max-width: none; margin: 4mm 0 0; }
+  .column, .timeline, .project-list { display: block; }
+  .card { padding: 0; margin: 0 0 4mm; border: 0; border-radius: 0; box-shadow: none; break-inside: auto; }
+  .section-title { margin: 0 0 2.5mm; font-size: 11pt; letter-spacing: .04em; break-after: avoid; }
+  .section-title::before { height: 4mm; width: 1mm; }
+  .profile-text, .job li, .clean-list li { color: #222; }
+  .job { padding-left: 3mm; margin-bottom: 2.5mm; break-inside: avoid; }
+  .job::before { width: 1.5mm; height: 1.5mm; left: -1mm; top: 1.5mm; box-shadow: none; }
+  .job-head { display: flex; gap: 3mm; }
+  .job h3 { font-size: 10.5pt; }
+  .job-role { margin: .5mm 0 0; font-size: 10pt; }
+  .job-date { margin: 0; padding: 0; background: none; color: #333; font-size: 9pt; white-space: nowrap; }
+  .job ul, .clean-list { margin: 1mm 0 0; padding-left: 4mm; }
+  .job li, .clean-list li { margin: .5mm 0; }
+  .projects { break-before: page; }
+  .project-item { padding: 0 0 2.5mm; background: none; border: 0; border-radius: 0; break-inside: avoid; }
+  .project-item h3, .item h3 { font-size: 10.5pt; }
+  .project-item p, .item p { font-size: 10pt; color: #333; }
+  .project-link { margin-top: 1mm; font-size: 9pt; }
+  aside.column { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm 7mm; }
+  aside .card { margin: 0; break-inside: avoid; }
+  .skill-group + .skill-group { margin-top: 2.5mm; }
+  .skill-group h3 { margin-bottom: 1mm; font-size: 10pt; }
+  .skill-tags { display: block; }
+  .skill-tag { padding: 0; background: none; color: #222; font-size: 10pt; font-weight: 400; }
+  .skill-tag:not(:last-child)::after { content: " · "; }
+  .item { break-inside: avoid; }
+  .item + .item { margin-top: 2.5mm; padding-top: 2.5mm; }
+  .item p { margin-top: 1mm; }
+  .info-row { grid-template-columns: 1fr auto; gap: 2mm; }
+  .info-row + .info-row { margin-top: 2.5mm; padding-top: 2.5mm; }
+  .info-row strong { font-size: 10pt; }
+  .info-row span { font-size: 9.5pt; }
+  .badge { padding: 0; background: none; }
+  a { text-decoration: none; }
 }
