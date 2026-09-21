@@ -1,36 +1,77 @@
-Aquí tenés un **README.md** listo para tu repositorio `cv` en GitHub. Así cualquiera (reclutadores, compañeros, etc.) que entre al repo va a entender qué contiene y cómo ver tu CV online:
+# CV Online - Ariel Nicolás Pérez
 
-```markdown
-# 📄 CV Online - Ariel Nicolás Pérez
+Este repositorio contiene la versión web pública de mi Currículum Vitae, actualizada a partir de mi CV general ATS.
 
-Este repositorio contiene mi **Currículum Vitae** en diferentes formatos:
+## Ver CV online
 
-## 🔹 Formatos disponibles
+GitHub Pages:
 
-- **index.html** → Versión web moderna de mi CV (con diseño oscuro y badges de habilidades).
-- **README.md** → Versión en texto plano y estructurado (Markdown).
-- **resume.json** → Versión en formato estándar [JSON Resume](https://jsonresume.org/) para generar CVs con distintas plantillas.
-- **foto.jpg** → Imagen personal incluida en el CV online.
+https://NicolasRasse.github.io/CV/
 
-## 🌐 Ver CV online
+## Perfil
 
-Mi CV está publicado con **GitHub Pages** y se puede acceder aquí:  
-👉 [https://NicolasRasse.github.io/CV/](https://NicolasRasse.github.io/CV/)
+Perfil técnico y operativo con experiencia en sistemas informáticos, soporte técnico, telecomunicaciones, atención al cliente y trabajo en entornos industriales.
 
-## 🛠️ Tecnologías utilizadas
+Más de 6 años de experiencia en el área de Sistemas dentro de un frigorífico de exportación, junto con experiencia en reparación de PC, redes, servidores, instalación de servicios de telecomunicaciones, seguridad y tareas operativas.
 
-- **HTML5 + CSS3** para el diseño web.
-- **Markdown** para el CV en texto estructurado.
-- **GitHub Pages** para la publicación online.
-- **JSON Resume** como estándar para exportar a otros formatos.
+## Contenido del repositorio
 
-## 📧 Contacto
+- `index.html` - CV online.
+- `style.css` - diseño responsive y versión optimizada para impresión.
+- `resume.json` - información estructurada del CV.
+- `foto.jpg` - fotografía utilizada en la versión web.
 
-- **Email:** nicolasperez2912@gmail.com  
-- **Teléfono:** (02954) 15341290  
-- **Ubicación:** La Pampa, Argentina  
-- **GitHub:** [NicolasRasse](https://github.com/NicolasRasse)
-```
+## Experiencia destacada
 
----
+- Carnes Pampeanas - Cámara OREO, Empaque y Sistemas.
+- STC / CPE - Técnico instalador de telecomunicaciones.
+- La Anónima - Cajero y repositor.
+- Geo Seguridad - Monitoreo y vigilancia privada.
+- Radios La Tosca, Kermés y Radio del Deporte - Operación y musicalización.
+- SEE Technology - Reparación de PC y atención al público.
 
+## Tecnología y proyectos personales
+
+Trabajo y aprendizaje personal con:
+
+- Debian Linux
+- Raspberry Pi
+- Docker y Docker Compose
+- Portainer
+- Tailscale
+- Git y GitHub
+- Home Assistant
+- ESPHome
+- ESP32 / ESP8266
+- Arduino
+- Python
+- JavaScript
+- HTML y CSS
+
+### Vortex42 Homelab
+
+Demo pública del dashboard de mi homelab:
+
+https://nicolasrasse.github.io/vortex42-control-center-demo/
+
+Repositorio:
+
+https://github.com/NicolasRasse/vortex42-control-center-demo
+
+## Formación
+
+- Tecnicatura en Informática de Gestión - UNLPam.
+- Técnico en Armado y Reparación de PC - IAC.
+- Polimodal - Orientación en Administración de Empresas.
+- Instalación de Cámaras de Seguridad y Alarmas - EDDIS Educativa, en curso.
+
+## Idiomas
+
+Inglés técnico con buena comprensión de documentación, interfaces y terminología informática. Nivel conversacional básico.
+
+## Contacto
+
+- Santa Rosa, La Pampa, Argentina
+- Email: nicolasperez2912@gmail.com
+- Teléfono: 02954-15341290
+- GitHub: https://github.com/NicolasRasse
